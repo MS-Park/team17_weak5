@@ -43,12 +43,12 @@ public class AppTest {
 	@Test
 	public void goldBilladdoveruse1() {
 		bill = new Makebill("Gold",3,3800);
-		assertEquals(bill.totalBill(),1309.95,0.01);
+		assertEquals(bill.totalBill(),1338.95,0.01);
 	}
 	@Test
 	public void goldBilladdoveruse2() {
 		bill = new Makebill("gold",3,3800);
-		assertEquals(bill.totalBill(),1309.95,0.01);
+		assertEquals(bill.totalBill(),1338.95,0.01);
 	}
 	@Test
 	public void goldBillFaddNooveruse1() {
