@@ -78,8 +78,8 @@ public class AppTest {
 	}
 	@Test
 	public void silverBillNoaddNooveruse2() {
-		bill = new Makebill("silver",2,400);
-		assertEquals(bill.totalBill(),51.45,0.01);
+		bill = new Makebill("silver",1,400);
+		assertEquals(bill.totalBill(),29.95,0.01);
 	}
 	@Test
 	public void silverBillNoaddoveruse1() {
@@ -88,8 +88,8 @@ public class AppTest {
 	}
 	@Test
 	public void silverBillNoaddoveruse2() {
-		bill = new Makebill("silver",2,900);
-		assertEquals(bill.totalBill(),267.45,0.01);
+		bill = new Makebill("silver",1,900);
+		assertEquals(bill.totalBill(),245.95,0.01);
 	}
 	@Test
 	public void silverBilladdNooveruse1() {
