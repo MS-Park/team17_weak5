@@ -123,7 +123,7 @@ public class AppTest {
 	@Test
 	public void silverBillFaddoveruse1() {
 		bill = new Makebill("Silver",4,2000);
-		assertEquals(bill.totalBill(),533.95,error);
+		assertEquals(bill.totalBill(),887.95,error);
 	}
 	@Test
 	public void silverBillFaddoveruse2() {
