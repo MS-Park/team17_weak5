@@ -50,9 +50,9 @@ public class Makebill {
 	 * 초과사용 요금 리턴
 	 */
 	public double getOverchargeForUsage(){
-		if(usage>1000&&"Gold".equals(plan) ||"gold".equals(plan)){
+		if(usage>1000&&("Gold".equals(plan) ||"gold".equals(plan))){
 		         return (usage-1000)*planinfo.getOverchargeCost();
-		}else if(usage>500&&"Silver".equals(plan) ||"silver".equals(plan)){
+		}else if(usage>500&&("Silver".equals(plan) ||"silver".equals(plan))){
 				return (usage-500)*planinfo.getOverchargeCost();
 		}
 		else{
