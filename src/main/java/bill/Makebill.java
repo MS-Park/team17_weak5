@@ -21,7 +21,7 @@ public class Makebill {
 		} else if("Silver".equals(plan) ||"silver".equals(plan)){
 			planinfo=new PlanSilver();
 		} else {
-			planinfo=new nullplan();
+			planinfo=new Nullplan();
 		}
 					            
 	}
