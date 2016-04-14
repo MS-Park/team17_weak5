@@ -4,7 +4,7 @@ import org.junit.Test;
 
 public class AppTest {
 	private Makebill bill;
-	private error = 0.01;
+	private double error = 0.01;
 	@Test
 	public void nullbill() {
 		bill = new Makebill("sdf",0,0);
